@@ -42,4 +42,11 @@ public class Food extends Product{
         return bestBefore;
     }
 
+    @Override
+    public String toString() {
+        return "Food{" + "bestBefore=" + bestBefore + '}';
+    }
+    
+    
+
 }
